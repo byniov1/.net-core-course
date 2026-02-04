@@ -29,5 +29,6 @@ app.MapControllerRoute(
     pattern: "{controller=Home}/{action=MyPage}/{id?}")
     .WithStaticAssets();
 
+//chyba w końcu bedzie działał w miarę dobrze
 
 app.Run();
